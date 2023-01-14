@@ -74,9 +74,32 @@
       border-image: url(border-orange.png) 10% repeat;
     }
 
+    div:nth-child(10) {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(border-marino.png) 10 fill;
+    }
+
+    div:nth-child(11) {
+      border: 25px solid transparent;
+      border-image-source: url(border-marino.png);
+      border-image-slice: 30 42;
+      border-image-repeat: repeat;
+      background-color: lightblue;
+    }
+
+    div:nth-child(12) {
+      border: 10px solid transparent;
+      padding: 15px;
+      border-image: url(border-marino.png) 20 stretch;
+    }
+
   </style>
 </head>
 <body>
+  <div></div>
+  <div></div>
+  <div></div>
   <div></div>
   <div></div>
   <div></div>
