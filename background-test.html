@@ -16,7 +16,7 @@
       }
 
       p {
-        line-height: 400px; 
+        line-height: 400px;
       }
 
       div:nth-child(1) {
@@ -53,6 +53,11 @@
         background-origin: border-box;
         background-clip: content-box;
       }
+      div:nth-child(7) {
+        background: url(pajaros.png) right/85% no-repeat, url(nubes.jpeg) bottom/75% no-repeat;
+        background-origin: initial;
+        background-clip: content-box;
+      }
     </style>
   </head>
   <body>
@@ -62,5 +67,6 @@
     <div><p>Origin: Content / Clip: Content</p></div>
     <div><p>Origin: Border / Clip: Border</p></div>
     <div><p>Origin: Border / Clip: Content</p></div>
+    <div></div>
   </body>
 </html>

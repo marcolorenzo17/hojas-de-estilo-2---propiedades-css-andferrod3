@@ -15,7 +15,40 @@
         padding: 15px;
         border-radius: 10%;
         color: grey;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+
+      p:nth-child(1) {
+        word-wrap: break-word;
+      }
+
+      p:nth-child(2) {
+        white-space: nowrap;
+      }
+
+      p:nth-child(3) {
+        white-space: pre;
+      }
+
+      p:nth-child(4) {
+        word-wrap: break-word;
+        white-space: pre-line;
+      }
+
+      p:nth-child(5) {
+        word-wrap: break-word;
+        white-space: pre-wrap;
+      }
+
+      p:nth-child(6) {
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      p:nth-child(7) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
     </style>
